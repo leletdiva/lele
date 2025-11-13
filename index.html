@@ -1,1 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Feminino</title>
+  <script src="/_sdk/element_sdk.js"></script>
 
+        
+ 
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
+ </head>
+ <body>
+  <div class="floating-petals" id="petals-container"></div>
+  <div class="container">
+   <header class="header fade-in">
+    <div class="profile-image" id="profile-avatar">
+     👩‍🎨
+    </div>
+    <h1 class="main-title" id="main-name">Isabella Rose</h1>
+    <p class="subtitle" id="main-profession">Designer Gráfica &amp; Ilustradora</p>
+    <div class="decorative-line"></div>
+    <p class="description" id="main-description">Criando designs únicos e encantadores que capturam a essência da feminilidade. Especializada em branding delicado, ilustrações florais e identidades visuais românticas.</p>
+   </header>
+   <section class="section fade-in">
+    <h2 class="section-title">Meus Serviços</h2>
+    <div class="services-grid">
+     <div class="service-card" onclick="animateService(this)"><span class="service-icon">🎨</span>
+      <h3 class="service-title">Design Gráfico</h3>
+      <p class="service-description">Criação de identidades visuais únicas, logotipos delicados e materiais gráficos encantadores.</p>
+     </div>
+     <div class="service-card" onclick="animateService(this)"><span class="service-icon">🌸</span>
+      <h3 class="service-title">Ilustrações</h3>
+      <p class="service-description">Ilustrações personalizadas com toque feminino, florais e elementos decorativos únicos.</p>
+     </div>
+     <div class="service-card" onclick="animateService(this)"><span class="service-icon">💕</span>
+      <h3 class="service-title">Branding Feminino</h3>
+      <p class="service-description">Desenvolvimento de marcas com personalidade feminina, elegante e sofisticada.</p>
+     </div>
+    </div>
+   </section>
+   <section class="section fade-in">
+    <h2 class="section-title">Galeria de Trabalhos</h2>
+    <div class="gallery-grid">
+     <div class="gallery-item" onclick="animateGallery(this)">
+      🌹
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      🦋
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      ✨
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      🌺
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      💐
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      🎀
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      🌷
+     </div>
+     <div class="gallery-item" onclick="animateGallery(this)">
+      💎
+     </div>
+    </div>
+   </section>
+   <section class="section contact-section fade-in">
+    <div class="contact-content">
+     <h2 class="contact-title">Vamos criar algo lindo juntas?</h2>
+     <p class="contact-subtitle">Estou sempre pronta para novos projetos encantadores</p>
+     <div class="contact-info">
+      <div class="contact-item" onclick="animateContact(this)"><span class="contact-icon">💌</span> <span id="display-email">isabella@email.com</span>
+      </div>
+      <div class="contact-item" onclick="animateContact(this)"><span class="contact-icon">📸</span> <span id="display-instagram">@isabella.design</span>
+      </div>
+     </div><button class="cta-button" onclick="openContact()">Entre em Contato</button>
+    </div>
+   </section>
+  </div>
+  
