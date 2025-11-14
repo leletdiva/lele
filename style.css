@@ -28,7 +28,7 @@ HTML
       <div class="profile-image" id="profile-avatar">
         👩‍🎨
       </div>
-      <h1 class="main-title" id="main-name">Isabella Rose</h1>
+      <h1 class="main-title" id="main-name">Letícia Martins </h1>
       <p class="subtitle" id="main-profession">Designer Gráfica &amp; Ilustradora</p>
       <div class="decorative-line"></div>
       <p class="description" id="main-description">Criando designs únicos e encantadores que capturam a essência da feminilidade. Especializada em branding delicado, ilustrações florais e identidades visuais românticas.</p>
@@ -85,10 +85,6 @@ HTML
 </body>
 </html>
 
-2. 🎨 CSS (Salvar como: style.css)
-
-Este é o seu código CSS, exatamente como você enviou. Basta salvá-lo neste arquivo separado.
-CSS
 
 body {
   box-sizing: border-box;
@@ -99,30 +95,6 @@ body {
   color: #4a5568;
   min-height: 100%;
   overflow-x: hidden;
-}
-
-html {
-  height: 100%;
-}
-
-.floating-petals {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 1;
-}
-
-.petal {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: radial-gradient(ellipse at center, #f472b6 0%, #ec4899 70%, transparent 70%);
-  border-radius: 50% 0 50% 0;
-  animation: fall linear infinite;
-  opacity: 0.6;
 }
 
 @keyframes fall {
