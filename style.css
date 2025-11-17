@@ -1,12 +1,3 @@
-Com certeza. O erro principal era que seus arquivos HTML, CSS e JavaScript não estavam conectados.
-
-Aqui estão os três arquivos corrigidos e prontos para funcionar juntos. Você precisará salvá-los na mesma pasta com os nomes que indico.
-
-1. 📄 HTML (Salvar como: index.html)
-
-Este é o arquivo principal. Eu adicionei a tag <link> no <head> para carregar o CSS e a tag <script> no final do <body> para carregar o JavaScript. Também removi o script do Tailwind, que não estava sendo usado e poderia causar conflitos.
-HTML
-
 <!doctype html>
 <html lang="pt-BR">
 <head>

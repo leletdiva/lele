@@ -1,10 +1,10 @@
 // Configuração do SDK
 const defaultConfig = {
-  nome_completo: "Isabella Rose",
-  profissao: "Designer Gráfica & Ilustradora",
-  descricao_pessoal: "Criando designs únicos e encantadores que capturam a essência da feminilidade. Especializada em branding delicado, ilustrações florais e identidades visuais românticas.",
+  nome_completo: "Letícia Martins",
+  profissao: "Estudante",
+  descricao_pessoal: "Eu tenho 16 anos, sou estudante do 2° ano, faço curso de Desenvolvimento de Sistemas. Sou uma garota muito agitada e bem extrovertida e faço amizades bem facíl. Gosto bastante de dançar, ler, ver filmes (principalmente de romance), cozinhar e ficar com os meus amigos.",
   email_contato: "isabella@email.com",
-  instagram: "@isabella.design"
+  instagram: "@martiins.leh"
 };
 
 async function onConfigChange(config) {
