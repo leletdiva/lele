@@ -3,7 +3,7 @@ const defaultConfig = {
   nome_completo: "Letícia Martins",
   profissao: "Estudante",
   descricao_pessoal: "Eu tenho 16 anos, sou estudante do 2° ano, faço curso de Desenvolvimento de Sistemas. Sou uma garota muito agitada e bem extrovertida e faço amizades bem facíl. Gosto bastante de dançar, ler, ver filmes (principalmente de romance), cozinhar e ficar com os meus amigos.",
-  email_contato: "isabella@email.com",
+  email_contato: "leticia.brito.martins@escola.pr.gov.br",
   instagram: "@martiins.leh"
 };
 
@@ -18,7 +18,7 @@ async function onConfigChange(config) {
   if (mainName) {
     mainName.textContent = config.nome_completo || defaultConfig.nome_completo;
     // Atualizar avatar com primeira letra do nome
-    const firstName = (config.nome_completo || defaultConfig.nome_completo).split(' ')[0];
+    const firstName = (config.nome_completo || defaultConfig.nome_completo).split('euuu.jpeg ')[0];
     if (profileAvatar && firstName) {
       profileAvatar.textContent = firstName.charAt(0).toUpperCase() + '✨';
     }
