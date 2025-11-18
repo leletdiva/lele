@@ -447,3 +447,13 @@ html {
  position: relative;
             z-index: 2; /* <-- Fica na camada 2 (na frente) */
  }
+
+ /* Estilo para a IMAGEM dentro da galeria */
+.gallery-item img {
+  width: 100%;     /* Faz a imagem ocupar 100% da largura do quadrado */
+  height: 100%;    /* Faz a imagem ocupar 100% da altura do quadrado */
+  object-fit: cover; /* ESSENCIAL: Faz a imagem cobrir o espaço todo,
+                       sem distorcer (ela vai cortar o excesso se precisar) */
+  border-radius: 20px; /* Para a imagem ter as mesmas bordas 
+                       arredondadas do quadrado */
+}
