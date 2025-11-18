@@ -165,3 +165,32 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+// Criar pétalas flutuantes
+function createPetal() {
+ const petal = document.createElement('div');
+ petal.className = 'petal';
+ petal.style.left = Math.random() * 100 + '%';
+ petal.style.animationDuration = (Math.random() * 3 + 2) + 's';
+ petal.style.animationDelay = Math.random() * 2 + 's';
+ 
+ // Adiciona a pétala ao container
+            const petalsContainer = document.getElementById('petals-container');
+            if (petalsContainer) {
+     petalsContainer.appendChild(petal);
+            }
+ 
+ setTimeout(() => {
+ petal.remove();
+ }, 5000); // Remove a pétala após 5 segundos
+ }
+
+// Inicialização (quando a página carrega)
+document.addEventListener('DOMContentLoaded', function() {
+    // ... (outro código)
+ 
+ // Criar pétalas periodicamente
+ setInterval(createPetal, 800);
+ 
+    // ... (outro código)
+});
