@@ -161,7 +161,7 @@ html {
 .section {
   margin: 4rem 0;
   padding: 3rem;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(235, 66, 184, 0.7);
   backdrop-filter: blur(10px);
   border-radius: 30px;
   border: 1px solid rgba(244, 114, 182, 0.2);
