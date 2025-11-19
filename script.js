@@ -194,3 +194,40 @@ document.addEventListener('DOMContentLoaded', function() {
  
     // ... (outro código)
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // 1. Seleciona o botão do VSCO
+    // Se você usa uma tag <a>, o ID precisa estar nessa tag.
+    // Vou usar o ID 'vsco-link' para este exemplo.
+    const vscoButton = document.getElementById('vsco-link');
+    
+    // 2. Seleciona o botão do Instagram
+    // Vou usar o ID 'instagram-link' para este exemplo.
+    const instagramButton = document.getElementById('instagram-link');
+
+    // URL correta para o link da esquerda (VSCO)
+    const vscoURL = "https://vs.co/fpygsgm8/";
+
+    // URL correta para o link da direita (Instagram)
+    const instagramURL = "https://www.instagram.com/martiins.leh/";
+
+    // Adiciona o evento de clique para o botão VSCO
+    if (vscoButton) {
+        vscoButton.addEventListener('click', function() {
+            // Redireciona para o link do VSCO
+            window.location.href = vscoURL;
+            // Opcional: Para abrir em uma nova aba, use:
+            // window.open(vscoURL, '_blank');
+        });
+    }
+
+    // Adiciona o evento de clique para o botão Instagram
+    if (instagramButton) {
+        instagramButton.addEventListener('click', function() {
+            // Redireciona para o link do Instagram
+            window.location.href = instagramURL;
+            // Opcional: Para abrir em uma nova aba, use:
+            // window.open(instagramURL, '_blank');
+        });
+    }
+});
